@@ -51,7 +51,7 @@
 
         href="https://github.com/jakubpawlowicz/clean-css"
 
-    >clean-css (v4.0.11)</a>
+    >clean-css (v4.0.12)</a>
 </h1>
 <h4>A well-tested CSS minifier</h4>
 <div class="apidocSectionDiv"><a
@@ -61,12 +61,205 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.clean-css">module clean-css</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.clean-css.clean-css">
+            function <span class="apidocSignatureSpan"></span>clean-css
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.clean-css.clean">
+            function <span class="apidocSignatureSpan">clean-css.</span>clean
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">clean-css.</span>clean.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.clean-css.clean">module clean-css.clean</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.clean-css.clean.clean">
+            function <span class="apidocSignatureSpan">clean-css.</span>clean
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.clean-css.clean.prototype">module clean-css.clean.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.clean-css.clean.prototype.minify">
+            function <span class="apidocSignatureSpan">clean-css.clean.prototype.</span>minify
+            <span class="apidocSignatureSpan">(input, maybeSourceMap, maybeCallback)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.clean-css" id="apidoc.module.clean-css">module clean-css</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.clean-css.clean-css" id="apidoc.element.clean-css.clean-css">
+        function <span class="apidocSignatureSpan"></span>clean-css
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CleanCSS(options) {
+  options = options || {};
+
+  this.options = {
+    compatibility: compatibilityFrom(options.compatibility),
+    format: formatFrom(options.format),
+    inline: inlineFrom(options.inline),
+    inlineRequest: inlineRequestFrom(options.inlineRequest),
+    inlineTimeout: inlineTimeoutFrom(options.inlineTimeout),
+    level: optimizationLevelFrom(options.level),
+    rebase: rebaseFrom(options.rebase),
+    rebaseTo: rebaseToFrom(options.rebaseTo),
+    returnPromise: !!options.returnPromise,
+    sourceMap: !!options.sourceMap,
+    sourceMapInlineSources: !!options.sourceMapInlineSources
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.clean-css.clean" id="apidoc.element.clean-css.clean">
+        function <span class="apidocSignatureSpan">clean-css.</span>clean
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CleanCSS(options) {
+  options = options || {};
+
+  this.options = {
+    compatibility: compatibilityFrom(options.compatibility),
+    format: formatFrom(options.format),
+    inline: inlineFrom(options.inline),
+    inlineRequest: inlineRequestFrom(options.inlineRequest),
+    inlineTimeout: inlineTimeoutFrom(options.inlineTimeout),
+    level: optimizationLevelFrom(options.level),
+    rebase: rebaseFrom(options.rebase),
+    rebaseTo: rebaseToFrom(options.rebaseTo),
+    returnPromise: !!options.returnPromise,
+    sourceMap: !!options.sourceMap,
+    sourceMapInlineSources: !!options.sourceMapInlineSources
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.clean-css.clean" id="apidoc.module.clean-css.clean">module clean-css.clean</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.clean-css.clean.clean" id="apidoc.element.clean-css.clean.clean">
+        function <span class="apidocSignatureSpan">clean-css.</span>clean
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CleanCSS(options) {
+  options = options || {};
+
+  this.options = {
+    compatibility: compatibilityFrom(options.compatibility),
+    format: formatFrom(options.format),
+    inline: inlineFrom(options.inline),
+    inlineRequest: inlineRequestFrom(options.inlineRequest),
+    inlineTimeout: inlineTimeoutFrom(options.inlineTimeout),
+    level: optimizationLevelFrom(options.level),
+    rebase: rebaseFrom(options.rebase),
+    rebaseTo: rebaseToFrom(options.rebaseTo),
+    returnPromise: !!options.returnPromise,
+    sourceMap: !!options.sourceMap,
+    sourceMapInlineSources: !!options.sourceMapInlineSources
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.clean-css.clean.prototype" id="apidoc.module.clean-css.clean.prototype">module clean-css.clean.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.clean-css.clean.prototype.minify" id="apidoc.element.clean-css.clean.prototype.minify">
+        function <span class="apidocSignatureSpan">clean-css.clean.prototype.</span>minify
+        <span class="apidocSignatureSpan">(input, maybeSourceMap, maybeCallback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">minify = function (input, maybeSourceMap, maybeCallback) {
+  var options = this.options;
+
+  if (options.returnPromise) {
+    return new Promise(function (resolve, reject) {
+      minify(input, options, maybeSourceMap, function (errors, output) {
+        return errors ?
+          reject(errors) :
+          resolve(output);
+      });
+    });
+  } else {
+    return minify(input, options, maybeSourceMap, maybeCallback);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+# Use
+
+```js
+var CleanCSS = require(&#x27;clean-css&#x27;);
+var input = &#x27;a{font-weight:bold;}&#x27;;
+var options = { /* options */ };
+var output = new CleanCSS(options).<span class="apidocCodeKeywordSpan">minify</span>(input);
+```
+
+## Important: 4.0 breaking changes
+
+clean-css 4.0 introduces some breaking changes:
+
+* API and CLI interfaces are split, so API stays in this repository while CLI moves to [clean-css-cli](https://github.com/jakubpawlowicz
+/clean-css-cli);
+...</pre></li>
+    </ul>
+
 
 </div>
 
