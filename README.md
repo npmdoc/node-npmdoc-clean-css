@@ -1,9 +1,14 @@
-# api documentation for  [clean-css (v4.0.11)](https://github.com/jakubpawlowicz/clean-css)  [![npm package](https://img.shields.io/npm/v/npmdoc-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clean-css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clean-css)
+# npmdoc-clean-css
+
+#### api documentation for  [clean-css (v4.0.12)](https://github.com/jakubpawlowicz/clean-css)  [![npm package](https://img.shields.io/npm/v/npmdoc-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clean-css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clean-css)
+
 #### A well-tested CSS minifier
 
-[![NPM](https://nodei.co/npm/clean-css.png?downloads=true)](https://www.npmjs.com/package/clean-css)
+[![NPM](https://nodei.co/npm/clean-css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/clean-css)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-clean-css/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-clean-css%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-clean-css/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-clean-css/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-clean-css/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-clean-css/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-clean-css/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-clean-css/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Jakub Pawlowicz",
-        "email": "contact@jakubpawlowicz.com",
         "url": "http://twitter.com/jakubpawlowicz"
     },
     "bugs": {
@@ -39,8 +43,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "a6d88bffb399420b24298db49d99a1ed067534a8",
-        "tarball": "https://registry.npmjs.org/clean-css/-/clean-css-4.0.11.tgz"
+        "shasum": "a02e61707f1840bd3338f54dbc9acbda4e772fa3",
+        "tarball": "https://registry.npmjs.org/clean-css/-/clean-css-4.0.12.tgz"
     },
     "engines": {
         "node": ">= 4.0"
@@ -51,7 +55,7 @@
         "index.js",
         "LICENSE"
     ],
-    "gitHead": "9a912c899aeb10169ccad486bfa1b1441b1e084d",
+    "gitHead": "72a00b7b1f42822e1b843b9f6fc1029bdb02d3e3",
     "homepage": "https://github.com/jakubpawlowicz/clean-css",
     "keywords": [
         "css",
@@ -61,17 +65,14 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "goalsmashers",
-            "email": "jakub@goalsmashers.com"
+            "name": "goalsmashers"
         },
         {
-            "name": "jakub.pawlowicz",
-            "email": "contact@jakubpawlowicz.com"
+            "name": "jakub.pawlowicz"
         }
     ],
     "name": "clean-css",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jakubpawlowicz/clean-css.git"
@@ -83,19 +84,9 @@
         "prepublish": "npm run check",
         "test": "vows"
     },
-    "version": "4.0.11"
+    "version": "4.0.12"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module clean-css](#apidoc.module.clean-css)
-
-
-
-# <a name="apidoc.module.clean-css"></a>[module clean-css](#apidoc.module.clean-css)
 
 
 
