@@ -1,6 +1,6 @@
 # npmdoc-clean-css
 
-#### api documentation for  [clean-css (v4.0.12)](https://github.com/jakubpawlowicz/clean-css)  [![npm package](https://img.shields.io/npm/v/npmdoc-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clean-css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clean-css)
+#### basic api documentation for  [clean-css (v4.0.12)](https://github.com/jakubpawlowicz/clean-css)  [![npm package](https://img.shields.io/npm/v/npmdoc-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clean-css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clean-css)
 
 #### A well-tested CSS minifier
 
@@ -84,7 +84,8 @@
         "prepublish": "npm run check",
         "test": "vows"
     },
-    "version": "4.0.12"
+    "version": "4.0.12",
+    "bin": {}
 }
 ```
 
